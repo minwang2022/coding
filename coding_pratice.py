@@ -12,4 +12,6 @@
 class Solution:
     def removeElement(self, nums: List[int], val: int) -> int:
         ele, count = 0, 0 
+        for i in range(len(nums)):
+            
         
